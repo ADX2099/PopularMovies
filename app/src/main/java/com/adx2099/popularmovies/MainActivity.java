@@ -1,5 +1,7 @@
 package com.adx2099.popularmovies;
 
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
@@ -18,6 +20,7 @@ import android.widget.TextView;
 import com.adx2099.popularmovies.Models.Movie;
 import com.adx2099.popularmovies.Utils.MoviesJonUtils;
 import com.adx2099.popularmovies.Utils.NetworkUtils;
+import com.adx2099.popularmovies.activities.SettingsActivity;
 
 import org.json.JSONException;
 
@@ -47,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setUpView();
+        loadMoviesData();
     }
 
     private void setUpView() {
@@ -67,8 +71,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        Context context = this;
         switch (id){
             case R.id.action_settings:
+                Class destinationClass = SettingsActivity.class;
+                Intent intentSettings = new Intent(context,destinationClass);
+                startActivity(intentSettings);
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -81,7 +89,12 @@ public class MainActivity extends AppCompatActivity {
         mErrorMessageDisplay.setVisibility(View.VISIBLE);
     }
 
-    public void updateMovies(){
+    private void showMovieDataView() {
+        mErrorMessageDisplay.setVisibility(View.INVISIBLE);
+        mRecylerView.setVisibility(View.VISIBLE);
+    }
+
+    public void loadMoviesData(){
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         String sortOrder = prefs.getString(getString(R.string.pref_sort_order_key), getString((R.string.pref_sort_order_most_popular)));
 
@@ -100,14 +113,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected List<Movie> doInBackground(String... params) {
-            HttpURLConnection urlConnection = null;
-            BufferedReader reader = null;
-
-            String movieJsonStr = null;
 
             URL moviesRequestUrl = NetworkUtils.buildUrl(params[0]);
             try{
                 String jsonMoviesResponse = NetworkUtils.getResponseFromHttpUrl(moviesRequestUrl);
+
                 List moviesList = MoviesJonUtils.getMovieDataFromJson(jsonMoviesResponse);
 
                 return moviesList;
@@ -123,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(List<Movie> moviesData) {
 
             if (moviesData != null) {
-               // showWeatherDataView();
+               showMovieDataView();
                 //mAdapter.setWeatherData(moviesData);
             } else {
                 showErrorMessage();

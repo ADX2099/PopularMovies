@@ -9,10 +9,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
+import javax.net.ssl.HttpsURLConnection;
+
 public class NetworkUtils {
     private static final String TAG = NetworkUtils.class.getSimpleName();
     //------------------------------DATA URI ----------------------
-    private static final String SCHEME_PARAM = "http";
+    private static final String SCHEME_PARAM = "https";
     private static final String AUTHORITY_PARAM = "api.themoviedb.org";
     private static final String PATH1_PARAM = "3";
     private static final String PATH2_PARAM = "discover";
@@ -22,7 +24,7 @@ public class NetworkUtils {
     private static final String LANGUAGE_PARAM = "language";
 
     private static String SORT_BY = "popularity.desc";
-    private static String API_KEY = "eabd29e5dd012c8df5fb7a073ae22063";
+    private static String API_KEY = "061d6b1ec6e14128eacf72e9b6a3d084";
     private static String LANGUAGE = "es";
     //--------------------------------------------------------------------------------------------
     public static URL buildUrl(String... params) {
@@ -47,7 +49,7 @@ public class NetworkUtils {
     }
     //--------------------------------------------------------------------------------------------
     public static String getResponseFromHttpUrl(URL url) throws IOException {
-        HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+        HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
         try {
             InputStream in = urlConnection.getInputStream();
 

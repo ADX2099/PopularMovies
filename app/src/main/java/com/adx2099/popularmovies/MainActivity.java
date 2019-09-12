@@ -3,6 +3,7 @@ package com.adx2099.popularmovies;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
@@ -16,11 +17,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.adx2099.popularmovies.Models.Movie;
 import com.adx2099.popularmovies.Utils.MoviesJonUtils;
 import com.adx2099.popularmovies.Utils.NetworkUtils;
+import com.adx2099.popularmovies.activities.DetailActivity;
 import com.adx2099.popularmovies.activities.SettingsActivity;
+import com.adx2099.popularmovies.adapters.MoviesAdapter;
 
 import org.json.JSONException;
 
@@ -35,28 +39,35 @@ import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements MoviesAdapter.MoviesAdapterOnClickHandler {
 
     private RecyclerView mRecylerView;
-    private RecyclerView.Adapter mAdapter;
+    private MoviesAdapter mMoviesAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
     private final String LOG_TAG = MainActivity.class.getSimpleName();
     private TextView mErrorMessageDisplay;
+    private Context context = this;
+
+    private static final String TAG = "ADX2099";
 
     private ProgressBar mLoadingIndicator;
-
+    //-----------------------------------------------------------------------------------------
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setUpView();
+        mMoviesAdapter = new MoviesAdapter(this);
+        mRecylerView.setAdapter(mMoviesAdapter);
         loadMoviesData();
-    }
 
+    }
+    //-----------------------------------------------------------------------------------------
     private void setUpView() {
         mRecylerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecylerView.setHasFixedSize(true);
         mLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
+        mRecylerView.setLayoutManager(mLayoutManager);
         mLoadingIndicator = (ProgressBar) findViewById(R.id.pb_loading_indicator);
         mErrorMessageDisplay = (TextView) findViewById(R.id.tv_error_message_display);
     }
@@ -90,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showMovieDataView() {
+
         mErrorMessageDisplay.setVisibility(View.INVISIBLE);
         mRecylerView.setVisibility(View.VISIBLE);
     }
@@ -99,6 +111,13 @@ public class MainActivity extends AppCompatActivity {
         String sortOrder = prefs.getString(getString(R.string.pref_sort_order_key), getString((R.string.pref_sort_order_most_popular)));
 
         new FetchMovieTask().execute(sortOrder);
+    }
+
+    @Override
+    public void onClick(Movie selectedMovie) {
+      Class destinationClass = DetailActivity.class;
+      Intent detailIntent = new Intent(context, destinationClass);
+      startActivity(detailIntent);
     }
 
     private class FetchMovieTask extends AsyncTask<String, String, List<Movie>>{
@@ -118,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
             try{
                 String jsonMoviesResponse = NetworkUtils.getResponseFromHttpUrl(moviesRequestUrl);
 
+
                 List moviesList = MoviesJonUtils.getMovieDataFromJson(jsonMoviesResponse);
 
                 return moviesList;
@@ -131,10 +151,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(List<Movie> moviesData) {
+            mLoadingIndicator.setVisibility(View.INVISIBLE);
+            if (moviesData.size() > 0) {
 
-            if (moviesData != null) {
                showMovieDataView();
-                //mAdapter.setWeatherData(moviesData);
+                mMoviesAdapter.setMoviesData(moviesData);
             } else {
                 showErrorMessage();
             }

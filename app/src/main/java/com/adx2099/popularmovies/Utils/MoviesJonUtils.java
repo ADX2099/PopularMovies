@@ -1,5 +1,7 @@
 package com.adx2099.popularmovies.Utils;
 
+import android.os.Parcel;
+
 import com.adx2099.popularmovies.Models.Movie;
 
 import org.json.JSONArray;
@@ -24,16 +26,22 @@ public final class MoviesJonUtils {
         final String URL_IMAGE_BASE = "http://image.tmdb.org/t/p/";
         final String SIZE_IMAGE = "w185" + "/";
 
+
         items.clear();
         JSONArray moviesArray = moviesJson.getJSONArray(OWM_RESULTS);
+
         for (int i = 0; i < moviesArray.length(); i++) {
             JSONObject movieJson = moviesArray.getJSONObject(i);
-            items.add(new Movie(movieJson.getString(OWM_TITLE)
+            /*
+
+           items.add(new Movie(movieJson.getString(OWM_TITLE)
                     , URL_IMAGE_BASE + SIZE_IMAGE + movieJson.getString(OWM_POSTER)
                     , movieJson.getString(OWM_OVERVIEW)
                     , movieJson.getString(OWN_VOTE_AVERAGE)
                     , movieJson.getString(OWM_DATE)
-                    , movieJson.getInt(OWM_ID)));
+                    , movieJson.getInt(OWM_ID)));*/
+
+
         }
 
 

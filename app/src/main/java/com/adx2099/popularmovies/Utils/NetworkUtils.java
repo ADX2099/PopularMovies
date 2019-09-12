@@ -17,15 +17,15 @@ public class NetworkUtils {
     private static final String SCHEME_PARAM = "https";
     private static final String AUTHORITY_PARAM = "api.themoviedb.org";
     private static final String PATH1_PARAM = "3";
-    private static final String PATH2_PARAM = "discover";
-    private static final String PATH3_PARAM = "movie";
+    private static final String PATH2_PARAM = "movie";
+    private static final String PATH3_PARAM = "popular";
     private static final String SORT_BY_PARAM = "sort_by";
     private static final String API_KEY_PARAM = "api_key";
     private static final String LANGUAGE_PARAM = "language";
 
     private static String SORT_BY = "popularity.desc";
     private static String API_KEY = "061d6b1ec6e14128eacf72e9b6a3d084";
-    private static String LANGUAGE = "es";
+    private static String LANGUAGE = "en";
     //--------------------------------------------------------------------------------------------
     public static URL buildUrl(String... params) {
         Uri.Builder builder = new Uri.Builder();

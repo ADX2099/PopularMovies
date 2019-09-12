@@ -32,15 +32,26 @@ public final class MoviesJonUtils {
 
         for (int i = 0; i < moviesArray.length(); i++) {
             JSONObject movieJson = moviesArray.getJSONObject(i);
-            /*
 
+            Movie theMovie = new Movie();
+            theMovie.id = movieJson.getInt(OWM_ID);
+            theMovie.releaseDate = movieJson.getString(OWM_DATE);
+            theMovie.userRating = movieJson.getString(OWN_VOTE_AVERAGE);
+            theMovie.overview = movieJson.getString(OWM_OVERVIEW);
+            theMovie.moviePosterImageThumbnail = URL_IMAGE_BASE + SIZE_IMAGE + movieJson.getString(OWM_POSTER);
+            theMovie.originalTitle = movieJson.getString(OWM_TITLE);
+
+            items.add(theMovie);
+
+            //-------------------SERIALIZABLE IMPLEMENTATION----------------------------------
+            /*
            items.add(new Movie(movieJson.getString(OWM_TITLE)
                     , URL_IMAGE_BASE + SIZE_IMAGE + movieJson.getString(OWM_POSTER)
                     , movieJson.getString(OWM_OVERVIEW)
                     , movieJson.getString(OWN_VOTE_AVERAGE)
                     , movieJson.getString(OWM_DATE)
                     , movieJson.getInt(OWM_ID)));*/
-
+            //------------------------------------------------------------------------------
 
         }
 

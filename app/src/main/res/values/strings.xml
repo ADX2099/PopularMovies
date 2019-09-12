@@ -5,7 +5,7 @@
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_activity_settings">Settings</string>
     <string name="dummy_txt">Dummy</string>
-
+    <string name="detail_error_message">Movies data not found</string>
     <string name="pref_sort_order_label">Sort Order</string>
     <string name="pref_sort_order_key">sortOrder</string>
     <string name="pref_sort_order_most_popular">popularity.desc</string>

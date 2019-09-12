@@ -58,18 +58,10 @@ public class Movie implements Parcelable{
 
     }
 
-    public void readFromParcel(Parcel in){
-        originalTitle = in.readString();
-        moviePosterImageThumbnail = in.readString() ;
-        overview = in.readString();
-        userRating = in.readString();
-        releaseDate = in.readString();
-        id = in.readInt();
-    }
+
 }
 
-
-//------------------------------------------------------------------------------------------------
+//----------------------------------SERIALIZABLE IMPLEMENTATION-------------------------------------
 /*
 public class Movie implements Serializable {
     private String originalTitle;
@@ -136,3 +128,4 @@ public class Movie implements Serializable {
         this.id = id;
     }
 }*/
+//-------------------------------------------------------------------------------------------------

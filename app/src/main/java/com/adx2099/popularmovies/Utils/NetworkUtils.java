@@ -1,6 +1,7 @@
 package com.adx2099.popularmovies.Utils;
 
 import android.net.Uri;
+import android.util.Log;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -39,6 +40,7 @@ public class NetworkUtils {
                 .appendQueryParameter(LANGUAGE_PARAM, LANGUAGE);
 
         String myUrl = builder.build().toString();
+        Log.d("ADX2099URL", myUrl);
         URL url = null;
         try {
             url = new URL(myUrl);

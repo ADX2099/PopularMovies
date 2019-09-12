@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.adx2099.popularmovies.Models.Movie;
 import com.adx2099.popularmovies.R;
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -45,13 +46,23 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesAdap
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MoviesAdapterViewHolder moviesAdapterViewHolder, int position) {
+    public void onBindViewHolder(@NonNull final MoviesAdapterViewHolder moviesAdapterViewHolder, int position) {
         Movie moviePosition = mMovieData.get(position);
         moviesAdapterViewHolder.movie_name.setText(moviePosition.originalTitle);
         Log.d("ADXImage", moviePosition.moviePosterImageThumbnail);
         Picasso.get()
                 .load(moviePosition.moviePosterImageThumbnail)
-                .into(moviesAdapterViewHolder.imagen_view_card);
+                .into(moviesAdapterViewHolder.imagen_view_card, new Callback() {
+                    @Override
+                    public void onSuccess() {
+
+                    }
+
+                    @Override
+                    public void onError(Exception e) {
+                       // moviesAdapterViewHolder.mErrorImage.setVisibility(View.VISIBLE);
+                    }
+                });
 
 
     }

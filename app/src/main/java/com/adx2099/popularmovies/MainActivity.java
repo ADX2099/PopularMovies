@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
     private TextView mErrorMessageDisplay;
     private Context context = this;
 
-    private static final String TAG = "ADX2099";
 
     private ProgressBar mLoadingIndicator;
     //-----------------------------------------------------------------------------------------
@@ -59,9 +58,20 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         setUpView();
         mMoviesAdapter = new MoviesAdapter(this);
         mRecylerView.setAdapter(mMoviesAdapter);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
         loadMoviesData();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
 
     }
+
     //-----------------------------------------------------------------------------------------
     private void setUpView() {
         mRecylerView = (RecyclerView) findViewById(R.id.recyclerView);
@@ -94,9 +104,7 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
     }
     //----------------------------DATA FEED-------------------------------------------------------
     private void showErrorMessage() {
-        /* First, hide the currently visible data */
         mRecylerView.setVisibility(View.INVISIBLE);
-        /* Then, show the error */
         mErrorMessageDisplay.setVisibility(View.VISIBLE);
     }
 
@@ -112,14 +120,17 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
 
         new FetchMovieTask().execute(sortOrder);
     }
-
+    //----------------------------Click Handlers--------------------------------------------------
     @Override
     public void onClick(Movie selectedMovie) {
       Class destinationClass = DetailActivity.class;
       Intent detailIntent = new Intent(context, destinationClass);
+      detailIntent.putExtra("movieObj",selectedMovie);
       startActivity(detailIntent);
     }
 
+
+    //------------------------Thread Handler-----------------------------------------------------
     private class FetchMovieTask extends AsyncTask<String, String, List<Movie>>{
         private final String LOG_TAG_FETCH = FetchMovieTask.class.getSimpleName();
 
@@ -134,9 +145,9 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         protected List<Movie> doInBackground(String... params) {
 
             URL moviesRequestUrl = NetworkUtils.buildUrl(params[0]);
+
             try{
                 String jsonMoviesResponse = NetworkUtils.getResponseFromHttpUrl(moviesRequestUrl);
-
 
                 List moviesList = MoviesJonUtils.getMovieDataFromJson(jsonMoviesResponse);
 

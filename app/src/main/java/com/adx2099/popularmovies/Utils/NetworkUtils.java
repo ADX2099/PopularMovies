@@ -3,11 +3,8 @@ package com.adx2099.popularmovies.Utils;
 import android.net.Uri;
 import android.util.Log;
 
-import com.adx2099.popularmovies.PopularMovConstants;
-
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;

@@ -3,6 +3,8 @@ package com.adx2099.popularmovies.Utils;
 import android.net.Uri;
 import android.util.Log;
 
+import com.adx2099.popularmovies.PopularMovConstants;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -25,8 +27,7 @@ public class NetworkUtils {
     private static final String LANGUAGE_PARAM = "language";
 
     private static String SORT_BY = "popularity.desc";
-    private static String API_KEY = "061d6b1ec6e14128eacf72e9b6a3d084";
-    private static String LANGUAGE = "en";
+
     //--------------------------------------------------------------------------------------------
     public static URL buildUrl(String... params) {
         Uri.Builder builder = new Uri.Builder();
@@ -36,8 +37,8 @@ public class NetworkUtils {
                 .appendPath(PATH2_PARAM)
                 .appendPath(PATH3_PARAM)
                 .appendQueryParameter(SORT_BY_PARAM, params[0])//.appendQueryParameter(SORT_BY_PARAM, SORT_BY)
-                .appendQueryParameter(API_KEY_PARAM, API_KEY)
-                .appendQueryParameter(LANGUAGE_PARAM, LANGUAGE);
+                .appendQueryParameter(API_KEY_PARAM, PopularMovConstants.API_KEY)
+                .appendQueryParameter(LANGUAGE_PARAM, PopularMovConstants.LANGUAGE);
 
         String myUrl = builder.build().toString();
         Log.d("ADX2099URL", myUrl);

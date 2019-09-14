@@ -14,7 +14,7 @@ import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends AppCompatActivity {
     public static final String EXTRA_POSITION = "movieObj";
-    private Movie movieData;
+
     private TextView title_tv,year_tv,rate_tv,overview_tv;
     private ImageView poster_iv;
 
@@ -26,7 +26,7 @@ public class DetailActivity extends AppCompatActivity {
         if (intent == null) {
             closeOnError();
         }
-         movieData = intent.getExtras().getParcelable(EXTRA_POSITION);
+        Movie movieData = intent.getExtras().getParcelable(EXTRA_POSITION);
         setUpView();
         populateUI(movieData);
     }

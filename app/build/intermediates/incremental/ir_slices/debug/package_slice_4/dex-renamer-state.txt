@@ -1,0 +1,4 @@
+#Wed Sep 11 22:52:13 CDT 2019
+base.0=/Users/ADX2099/AndroidStudioProjects/PopularMovies/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

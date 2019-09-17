@@ -1,192 +1,192 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/2cc926c0f141a38c3d27bb811b470b2a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/816d3e820a09db660c382559e46a8907/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/ddbc936dd892d596ff8047c281d28cef/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5deaa11615d33062be4edb4fd3fbf9c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/b38d6df27ddf0404a9eb5961ac077124/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/a886f77b0d5ed46077c8bbc821d5d883/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/3bad6fba7119bb50b9a32e8904719c30/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/26f6a20c6f3fb7fa48f3fbf508657512/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/4c6e212c4fe49a312d4529da25920a56/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/4c5b04269f5383ff442a45a1a9dd7b02/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/eaf8960ae132f7908d8bd0899ae780a0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/86a502e3870067b6b554bb0004a67479/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/8a679660cc773e4bad852616a2edc9ff/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/34d2e0310384716438656fbe3af90cde/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/190641f66fc3e847b8a7989347c2629d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/d2209859db7d20d8c88298c9a406171f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/83ab7fcc1371b996462f098bda67b6a2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/e2010c50e9ed8c316234c941ace763dd/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/00e3d7f4da798b773b491474ec743c66/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/fd75d60bd90a6a7234d4c71a2eaa28c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:exifinterface:27.1.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/32fc07e31f0a4f99fa391f6ccbf2c78b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/d11ac9a52a1126cbff71b5fd0d3765be/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5d48ca2e103fef7547fae7aed68cfcc9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/cbab112b54a1eeb51b0fabdf1235464f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/65e7e810c19713dd1fdef18e38459752/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/6fad2567b2e91803e95735d83ed2352a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/f6b843c890b60f4f2dab3ffa2c4e9c0d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/df36ef2f96e2cb372219700a6156424f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/b8a161edaab80c18cb8944a3c5102352/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/6a25284db929d796fc1fe509cb685fbc/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\52ceb64bfa66a94c4d2c3b564a22273b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\0a98d7ba5695bc0270278cb9bd3c35d4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\6df438a93fe1f614e98f66e2bd85255b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7b8fc7ca1125e737fa661620a2361e54\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\8986dbe5618110b7901613ad304a7c13\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\c21f7f33c6579339a1e77a1134b56b81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7991f8a396f8c27f14df05e534ac4021\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\88ebbc785a8896e02878fdee0ee77e47\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\072100e9b41703dce32842acf6821235\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\3d724e17f8157aabbb0ef552da913a86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\add7991edb994b74f6dcec44e1ea1f1a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\fe2d2a71daaebeff21319824d3209c75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\a472574d4b4914fa797114dcff95645d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\aaa9ada7298b8f8e378aa530a5048ddc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\98e9a4255195431664938fc54625032d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2ae6715310ad7e90428e312a214c53e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\12ef3af54f79fa66996f5336c4242539\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7fa41c9c45b64615d8d880627a759f87\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\e49d8fe572c83d6bb588b8802cbf75ab\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\536d9d199162d5fc6de30a5d72b4ed30\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\4a1a66db24f2bd3c4a920ab2d03f0657\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\d74498ba44fd3272369599a0e0561662\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\25c6a5e52e9b985ba90bc66168ebcb5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\628cda00efd7a6eb16406fead0250e6c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\bb1fd12156323d271487be50e772d6cd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2b687d0840d126ca28ca928d8487b17b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\ab33a6c32fccf01a56e2964e3723f739\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\73d21137a3a7b4ac71fab0d8912a8c68\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\a0f9411c318bc85b91be172663ba3eb5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\df1f55c53afa80760a887cd6ce3c595d\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:5:5-25:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/816d3e820a09db660c382559e46a8907/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/816d3e820a09db660c382559e46a8907/AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:7:5-12:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/e2010c50e9ed8c316234c941ace763dd/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/e2010c50e9ed8c316234c941ace763dd/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/00e3d7f4da798b773b491474ec743c66/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/00e3d7f4da798b773b491474ec743c66/AndroidManifest.xml:22:5-23:19
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\0a98d7ba5695bc0270278cb9bd3c35d4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\0a98d7ba5695bc0270278cb9bd3c35d4\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7fa41c9c45b64615d8d880627a759f87\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7fa41c9c45b64615d8d880627a759f87\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\e49d8fe572c83d6bb588b8802cbf75ab\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\e49d8fe572c83d6bb588b8802cbf75ab\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/e2010c50e9ed8c316234c941ace763dd/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7fa41c9c45b64615d8d880627a759f87\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:11:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:12:9-44
 activity#com.adx2099.popularmovies.activities.DetailActivity
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:13:9-72
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:13:9-72
 	android:name
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:13:19-60
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:13:19-60
 activity#com.adx2099.popularmovies.MainActivity
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.adx2099.popularmovies.activities.SettingsActivity
-ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:21:9-24:20
+ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:21:9-24:20
 	android:label
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:23:13-60
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:23:13-60
 	android:name
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml:22:13-56
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml:22:13-56
 uses-sdk
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/2cc926c0f141a38c3d27bb811b470b2a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/2cc926c0f141a38c3d27bb811b470b2a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/816d3e820a09db660c382559e46a8907/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/816d3e820a09db660c382559e46a8907/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/ddbc936dd892d596ff8047c281d28cef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/ddbc936dd892d596ff8047c281d28cef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5deaa11615d33062be4edb4fd3fbf9c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5deaa11615d33062be4edb4fd3fbf9c9/AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/b38d6df27ddf0404a9eb5961ac077124/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/b38d6df27ddf0404a9eb5961ac077124/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/a886f77b0d5ed46077c8bbc821d5d883/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/a886f77b0d5ed46077c8bbc821d5d883/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/3bad6fba7119bb50b9a32e8904719c30/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/3bad6fba7119bb50b9a32e8904719c30/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/26f6a20c6f3fb7fa48f3fbf508657512/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/26f6a20c6f3fb7fa48f3fbf508657512/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/4c6e212c4fe49a312d4529da25920a56/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/4c6e212c4fe49a312d4529da25920a56/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/4c5b04269f5383ff442a45a1a9dd7b02/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/4c5b04269f5383ff442a45a1a9dd7b02/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/eaf8960ae132f7908d8bd0899ae780a0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/eaf8960ae132f7908d8bd0899ae780a0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/86a502e3870067b6b554bb0004a67479/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/86a502e3870067b6b554bb0004a67479/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/8a679660cc773e4bad852616a2edc9ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/8a679660cc773e4bad852616a2edc9ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/34d2e0310384716438656fbe3af90cde/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/34d2e0310384716438656fbe3af90cde/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/190641f66fc3e847b8a7989347c2629d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/190641f66fc3e847b8a7989347c2629d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/d2209859db7d20d8c88298c9a406171f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/d2209859db7d20d8c88298c9a406171f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/83ab7fcc1371b996462f098bda67b6a2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/83ab7fcc1371b996462f098bda67b6a2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/e2010c50e9ed8c316234c941ace763dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/e2010c50e9ed8c316234c941ace763dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/00e3d7f4da798b773b491474ec743c66/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/00e3d7f4da798b773b491474ec743c66/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/fd75d60bd90a6a7234d4c71a2eaa28c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/fd75d60bd90a6a7234d4c71a2eaa28c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/32fc07e31f0a4f99fa391f6ccbf2c78b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/32fc07e31f0a4f99fa391f6ccbf2c78b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/d11ac9a52a1126cbff71b5fd0d3765be/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/d11ac9a52a1126cbff71b5fd0d3765be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5d48ca2e103fef7547fae7aed68cfcc9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5d48ca2e103fef7547fae7aed68cfcc9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/cbab112b54a1eeb51b0fabdf1235464f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/cbab112b54a1eeb51b0fabdf1235464f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/65e7e810c19713dd1fdef18e38459752/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/65e7e810c19713dd1fdef18e38459752/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/6fad2567b2e91803e95735d83ed2352a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/6fad2567b2e91803e95735d83ed2352a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/f6b843c890b60f4f2dab3ffa2c4e9c0d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/f6b843c890b60f4f2dab3ffa2c4e9c0d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/df36ef2f96e2cb372219700a6156424f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/df36ef2f96e2cb372219700a6156424f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/b8a161edaab80c18cb8944a3c5102352/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/b8a161edaab80c18cb8944a3c5102352/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/6a25284db929d796fc1fe509cb685fbc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/6a25284db929d796fc1fe509cb685fbc/AndroidManifest.xml:20:5-44
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\52ceb64bfa66a94c4d2c3b564a22273b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\52ceb64bfa66a94c4d2c3b564a22273b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\0a98d7ba5695bc0270278cb9bd3c35d4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\0a98d7ba5695bc0270278cb9bd3c35d4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\6df438a93fe1f614e98f66e2bd85255b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\6df438a93fe1f614e98f66e2bd85255b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7b8fc7ca1125e737fa661620a2361e54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7b8fc7ca1125e737fa661620a2361e54\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\8986dbe5618110b7901613ad304a7c13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\8986dbe5618110b7901613ad304a7c13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\c21f7f33c6579339a1e77a1134b56b81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\c21f7f33c6579339a1e77a1134b56b81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7991f8a396f8c27f14df05e534ac4021\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7991f8a396f8c27f14df05e534ac4021\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\88ebbc785a8896e02878fdee0ee77e47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\88ebbc785a8896e02878fdee0ee77e47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\072100e9b41703dce32842acf6821235\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\072100e9b41703dce32842acf6821235\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\3d724e17f8157aabbb0ef552da913a86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\3d724e17f8157aabbb0ef552da913a86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\add7991edb994b74f6dcec44e1ea1f1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\add7991edb994b74f6dcec44e1ea1f1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\fe2d2a71daaebeff21319824d3209c75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\fe2d2a71daaebeff21319824d3209c75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\a472574d4b4914fa797114dcff95645d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\a472574d4b4914fa797114dcff95645d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\aaa9ada7298b8f8e378aa530a5048ddc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\aaa9ada7298b8f8e378aa530a5048ddc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\98e9a4255195431664938fc54625032d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\98e9a4255195431664938fc54625032d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2ae6715310ad7e90428e312a214c53e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2ae6715310ad7e90428e312a214c53e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\12ef3af54f79fa66996f5336c4242539\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\12ef3af54f79fa66996f5336c4242539\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7fa41c9c45b64615d8d880627a759f87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\7fa41c9c45b64615d8d880627a759f87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\e49d8fe572c83d6bb588b8802cbf75ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\e49d8fe572c83d6bb588b8802cbf75ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\536d9d199162d5fc6de30a5d72b4ed30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\536d9d199162d5fc6de30a5d72b4ed30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\4a1a66db24f2bd3c4a920ab2d03f0657\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\4a1a66db24f2bd3c4a920ab2d03f0657\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\d74498ba44fd3272369599a0e0561662\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\d74498ba44fd3272369599a0e0561662\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\25c6a5e52e9b985ba90bc66168ebcb5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\25c6a5e52e9b985ba90bc66168ebcb5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\628cda00efd7a6eb16406fead0250e6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\628cda00efd7a6eb16406fead0250e6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\bb1fd12156323d271487be50e772d6cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\bb1fd12156323d271487be50e772d6cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2b687d0840d126ca28ca928d8487b17b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2b687d0840d126ca28ca928d8487b17b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\ab33a6c32fccf01a56e2964e3723f739\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\ab33a6c32fccf01a56e2964e3723f739\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\73d21137a3a7b4ac71fab0d8912a8c68\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\73d21137a3a7b4ac71fab0d8912a8c68\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\a0f9411c318bc85b91be172663ba3eb5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\a0f9411c318bc85b91be172663ba3eb5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\df1f55c53afa80760a887cd6ce3c595d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\df1f55c53afa80760a887cd6ce3c595d\AndroidManifest.xml:20:5-44
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ADX2099/AndroidStudioProjects/PopularMovies/app/src/main/AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\PopularMovies\app\src\main\AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ADX2099/.gradle/caches/transforms-2/files-2.1/0a88b2d1103ecafeec495588d919f1f8/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-2\files-2.1\2dea368f215f832c7f6f9b68814ddd04\AndroidManifest.xml:9:13-64

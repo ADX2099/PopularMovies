@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ADX2099/AndroidStudioProjects/PopularMovies/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "D:\\projects\\PopularMovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/ADX2099/.gradle/caches/transforms-2/files-2.1/2cc926c0f141a38c3d27bb811b470b2a/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\daxis\\.gradle\\caches\\transforms-2\\files-2.1\\52ceb64bfa66a94c4d2c3b564a22273b\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ADX2099/.gradle/caches/transforms-2/files-2.1/5deaa11615d33062be4edb4fd3fbf9c9/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\daxis\\.gradle\\caches\\transforms-2\\files-2.1\\7b8fc7ca1125e737fa661620a2361e54\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

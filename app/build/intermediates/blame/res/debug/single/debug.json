@@ -8,10 +8,6 @@
         "source": "D:\\projects\\PopularMovies\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\projects\\PopularMovies\\app\\build\\intermediates\\res\\merged\\debug\\menu_detail.xml.flat",
-        "source": "D:\\projects\\PopularMovies\\app\\src\\main\\res\\menu\\detail.xml"
-    },
-    {
         "merged": "D:\\projects\\PopularMovies\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\daxis\\.gradle\\caches\\transforms-2\\files-2.1\\52ceb64bfa66a94c4d2c3b564a22273b\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },

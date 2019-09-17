@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
     @Override
     protected void onStart() {
         super.onStart();
-        loadMoviesData();
+        loadMoviesData(getResources().getString(R.string.pref_sort_order_most_popular));
     }
 
     @Override
@@ -94,10 +94,14 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         int id = item.getItemId();
         Context context = this;
         switch (id){
-            case R.id.action_settings:
-                Class destinationClass = SettingsActivity.class;
-                Intent intentSettings = new Intent(context,destinationClass);
-                startActivity(intentSettings);
+            case R.id.most_popular:
+                mMoviesAdapter.setMoviesData(null);
+                loadMoviesData(getResources().getString(R.string.pref_sort_order_most_popular));
+                break;
+            case R.id.highest_rated:
+                mMoviesAdapter.setMoviesData(null);
+                loadMoviesData(getResources().getString(R.string.pref_sort_order_highest_rated));
+
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -114,9 +118,9 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         mRecylerView.setVisibility(View.VISIBLE);
     }
 
-    public void loadMoviesData(){
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String sortOrder = prefs.getString(getString(R.string.pref_sort_order_key), getString((R.string.pref_sort_order_most_popular)));
+    public void loadMoviesData(String sortOrder){
+        /*SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        sortOrder = prefs.getString(getString(R.string.pref_sort_order_key), getString((R.string.pref_sort_order_most_popular)));*/
 
         new FetchMovieTask().execute(sortOrder);
     }
@@ -145,6 +149,7 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         protected List<Movie> doInBackground(String... params) {
 
             URL moviesRequestUrl = NetworkUtils.buildUrl(params[0]);
+            Log.d(LOG_TAG_FETCH, "URL" + moviesRequestUrl);
 
             try{
                 String jsonMoviesResponse = NetworkUtils.getResponseFromHttpUrl(moviesRequestUrl);
@@ -164,7 +169,6 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         protected void onPostExecute(List<Movie> moviesData) {
             mLoadingIndicator.setVisibility(View.INVISIBLE);
             if (moviesData.size() > 0) {
-
                showMovieDataView();
                 mMoviesAdapter.setMoviesData(moviesData);
             } else {

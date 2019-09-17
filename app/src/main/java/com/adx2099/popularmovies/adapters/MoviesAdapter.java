@@ -94,7 +94,9 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesAdap
     }
 
     public void setMoviesData(List<Movie> moviesData){
+
         mMovieData = moviesData;
+
         notifyDataSetChanged();
 
     }
